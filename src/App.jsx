@@ -1,11 +1,13 @@
-
+import Header from './components/Header/Header'
+import Main from './components/Main/Main'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-center mt-10">
-        Videoclub 📚
-      </h1>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   )
 }
