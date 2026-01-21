@@ -1,5 +1,5 @@
 {
-  "name": "q",
+  "name": "cine sin fronteras",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "api": "json-server server/db.json --port 3000"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "json-server": "^1.0.0-beta.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwindcss": "^4.1.18"
