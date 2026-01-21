@@ -1,6 +1,6 @@
 function Exclusive() {
     return (
-        <div className="w-full h-80 rounded-2xl overflow-hidden relative">
+        <div className="w-full h-80 overflow-hidden relative">
             {/* Imagen cine en casa - opción 4 */}
             <img
                 src="https://images.unsplash.com/photo-1540575467063-178a50c2df87"
