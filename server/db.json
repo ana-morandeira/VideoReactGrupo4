@@ -1,0 +1,31 @@
+{
+  "coproducciones": [
+    {
+      "pais": "Argentina",
+      "peliculas": [
+        {
+          "id": 1,
+          "titulo": "Relatos salvajes",
+          "director": "Damián Szifron",
+          "año": 2014,
+          "genero": "Comedia negra",
+          "argumento": "Seis historias de violencia y venganza.",
+          "imagen": "argentina_1.jpg",
+          "imageCartel": "argentina_1_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/Ssh7WtoAn64"
+        },
+        {
+          "id": 2,
+          "titulo": "El secreto de sus ojos",
+          "director": "Juan José Campanella",
+          "año": 2009,
+          "genero": "Thriller",
+          "argumento": "Un oficial busca resolver un crimen del pasado.",
+          "imagen": "argentina_2.jpg",
+          "imageCartel": "argentina_2_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/G6s9H-M-t8w"
+        }
+      ]
+    }
+  ]
+}
