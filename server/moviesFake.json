@@ -1,0 +1,169 @@
+{
+  "coproducciones": [
+    {
+      "pais": "Argentina",
+      "peliculas": [
+        {
+          "id": 1,
+          "titulo": "Relatos salvajes",
+          "director": "Damián Szifron",
+          "año": 2014,
+          "genero": "Comedia negra",
+          "argumento": "Seis historias de violencia y venganza.",
+          "imagen": "src/assets/images/argentina/relatosSalvajes.jpg",
+          "imageCartel": "src/assets/images/argentina/relatosSalvajesCartel.jpg",
+          "trailer": "https://youtu.be/CzJM3jYKjAg?si=i0VsmD_OoZYFgdFe"
+        },
+        {
+          "id": 2,
+          "titulo": "El secreto de sus ojos",
+          "director": "Juan José Campanella",
+          "año": 2009,
+          "genero": "Thriller",
+          "argumento": "Un oficial busca resolver un crimen del pasado.",
+          "imagen": "src/assets/images/argentina/elSecretoDeSusOjos.jpg",
+          "imageCartel": "src/assets/images/argentina/elSecretoDeSusOjosCartel.jpg",
+          "trailer": " https://youtu.be/hKa8U-8vsfU?si=LTL11xxWe8OOcGZ8"
+        },
+        {
+          "id": 3,
+          "titulo": "Nueve reinas",
+          "director": "Fabián Bielinsky",
+          "año": 2000,
+          "genero": "Crimen, Suspenso",
+          "argumento": "Dos estafadores planean un gran golpe.",
+          "imagen": "src/assets/images/argentina/nueveReinas.jpg",
+          "imageCartel": "src/assets/images/argentina/nueveReinasCartel.jpg",
+          "trailer": "https://youtu.be/Awu9WonTVB0?si=xeV27t6fcvH42KYk"
+        },
+        {
+          "id": 4,
+          "titulo": "El hijo de la novia",
+          "director": "Juan José Campanella",
+          "año": 2001,
+          "genero": "Drama",
+          "argumento": "Un hombre en crisis redescubre su vida a través de sus padres.",
+          "imagen": "src/assets/images/argentina/elHijoDeLaNovia.jpg",
+          "imageCartel": "src/assets/images/argentina/elHijoDeLaNoviaCartel.jpg",
+          "trailer": "https://youtu.be/AoAU_eeSq4o?si=Q36V60jBsJZtlM2h"
+        },
+        {
+          "id": 5,
+          "titulo": "Metegol",
+          "director": "Juan José Campanella",
+          "año": 2013,
+          "genero": "Animación",
+          "argumento": "Un joven debe defender a su pueblo con ayuda de jugadores de futbolín que cobran vida.",
+          "imagen": "src/assets/images/argentina/metegol.jpg",
+          "imageCartel": "src/assets/images/argentina/metegolCartel.jpg",
+          "trailer": "https://youtu.be/A1rBLosVvGY?si=t1T2QeSAMcSCPerg"
+        },
+        {
+          "id": 6,
+          "titulo": "La odisea de los giles",
+          "director": "Sebastián Borensztein",
+          "año": 2019,
+          "genero": "Aventura",
+          "argumento": "Vecinos buscan recuperar el dinero que les robaron durante el corralito.",
+          "imagen": "src/assets/images/argentina/laOdiseaDeLosGiles.jpg",
+          "imageCartel": "src/assets/images/argentina/laOdiseaDeLosGilesCartel.jpg",
+          "trailer": "https://youtu.be/ZP_o6GQaFW8?si=d6Vjliljp9jxFG2p"
+        },
+        {
+          "id": 7,
+          "titulo": "Truman",
+          "director": "Cesc Gay",
+          "año": 2015,
+          "genero": "Drama",
+          "argumento": "Dos amigos comparten momentos inolvidables ante una despedida inminente.",
+          "imagen": "src/assets/images/argentina/truman.jpg",
+          "imageCartel": "src/assets/images/argentina/trumanCartel.jpg",
+          "trailer": "https://youtu.be/czaA6yRbass?si=RAAOK_JZrtXcUoyZ"
+        }
+
+      ]
+    },
+    {
+      "pais": "México",
+      "peliculas": [
+        {
+          "id": 8,
+          "titulo": "El laberinto del fauno",
+          "director": "Guillermo del Toro",
+          "año": 2006,
+          "genero": "Fantasía",
+          "argumento": "Una niña escapa a un mundo de fantasía en la oscura posguerra española.",
+          "imagen": "src/assets/images/mexico/elLaberintoDelFauno.jpg",
+          "imageCartel": "src/assets/images/mexico/elLaberintoDelFaunoCartel.jpg",
+          "trailer": "https://youtu.be/gpEh4O8Hb5Y?si=lmczupjqFQaskDwD"
+        },
+        {
+          "id": 9,
+          "titulo": "Biutiful",
+          "director": "Alejandro G. Iñárritu",
+          "año": 2010,
+          "genero": "Drama",
+          "argumento": "Un hombre lucha por asegurar el futuro de sus hijos en los bajos fondos de Barcelona.",
+          "imagen": "src/assets/images/mexico/biutiful.jpg",
+          "imageCartel": "src/assets/images/mexico/biutifulCartel.jpg",
+          "trailer": "https://youtu.be/3WzJcwGA6YM?si=UWRZtN87fMPVbpKP"
+        },
+        {
+          "id": 10,
+          "titulo": "El espinazo del diablo",
+          "director": "Guillermo del Toro",
+          "año": 2001,
+          "genero": "Terror",
+          "argumento": "Fantasmas y secretos en un orfanato durante la Guerra Civil Española.",
+          "imagen": "mexico_3.jpg",
+          "imageCartel": "mexico_3_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/nLsc06A9Mls"
+        },
+        {
+          "id": 11,
+          "titulo": "Amores perros",
+          "director": "Alejandro G. Iñárritu",
+          "año": 2000,
+          "genero": "Drama",
+          "argumento": "Tres vidas se cruzan trágicamente tras un accidente de coche en Ciudad de México.",
+          "imagen": "mexico_4.jpg",
+          "imageCartel": "mexico_4_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/L_U_V33O-yY"
+        },
+        {
+          "id": 12,
+          "titulo": "Cronos",
+          "director": "Guillermo del Toro",
+          "año": 1993,
+          "genero": "Terror",
+          "argumento": "Un artefacto antiguo otorga la vida eterna pero a un precio terrible.",
+          "imagen": "mexico_5.jpg",
+          "imageCartel": "mexico_5_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/I0T0tY-9v_c"
+        },
+        {
+          "id": 13,
+          "titulo": "La zona",
+          "director": "Rodrigo Plá",
+          "año": 2007,
+          "genero": "Thriller",
+          "argumento": "Tensión social extrema tras un asalto fallido en una urbanización privada.",
+          "imagen": "mexico_6.jpg",
+          "imageCartel": "mexico_6_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/fD36K8h_p-E"
+        },
+        {
+          "id": 14,
+          "titulo": "Bardo",
+          "director": "Alejandro G. Iñárritu",
+          "año": 2022,
+          "genero": "Comedia dramática",
+          "argumento": "Un periodista y documentalista mexicano vive una crisis existencial surrealista.",
+          "imagen": "mexico_7.jpg",
+          "imageCartel": "mexico_7_cartel.jpg",
+          "trailer": "https://www.youtube.com/embed/SOfK6WpSg5A"
+        }
+      ]
+    }
+  ]
+}
