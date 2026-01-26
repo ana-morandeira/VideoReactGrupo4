@@ -8,14 +8,14 @@ const Footer = () => {
         {/* Lado Izquierdo: Logo, Descripción y Redes (Ocupa 6 de 12 columnas) */}
         <div className="md:col-span-6">
           <div className="flex items-center gap-3 mb-6">
-            {/src/assets/logos/logoVideoclub.jpg}
+           {}
             <img 
-              src="/src/assets/logos/logoVideoclub.jpg" 
+              src="src/assets/logos/iberianMovieLogo.svg" 
               alt="Iberian Movie Logo" 
-              className="w-10 h-auto"
+              className="w-30 h-auto"
             />
-            <h2 className="text-[#c5a04a] text-2xl font-bold tracking-tighter italic">
-              IBERIAN MOVIE
+            <h2 className="text-[#c5a04a] text-1xl font-bold tracking-tighter italic">
+              Iberian Movie
             </h2>
           </div>
           
@@ -66,9 +66,9 @@ const Footer = () => {
 
       </div>
 
-      {/* Copyright inferior */}
+
       <div className="max-w-6xl mx-auto mt-16 pt-8 border-t border-gray-900/50 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-gray-600">
-        <p>© 2026 IBERIAN MOVIE — TODOS LOS DERECHOS RESERVADOS</p>
+        <p>© 2026 IBERIAN MOVIE — Todos los derechos reservados</p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <span>PRIVACIDAD</span>
           <span>TÉRMINOS</span>
