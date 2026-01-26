@@ -1,22 +1,45 @@
-// FeaturedFilms.jsx
 import React from 'react';
-import './FeaturedFilms.css'; // Opcional: para estilos personalizados
+//import FeaturedFilms from './FeaturedFilms';
 
-const FeaturedFilms = ({ title, genre, year, countries, poster }) => {
+const filmData = [
+  {
+    title: "As Bestas",
+    genre: "Thriller",
+    year: 2022,
+    countries: ["🇪🇸", "🇫🇷"],
+    poster: "/images/as-bestas.jpg"
+  },
+  {
+    title: "Wild Tales",
+    genre: "Comedy",
+    year: 2014,
+    countries: ["🇪🇸", "🇦🇷"],
+    poster: "/images/wild-tales.jpg"
+  },
+  {
+    title: "The Others",
+    genre: "Horror",
+    year: 2001,
+    countries: ["🇪🇸", "🇺🇸"],
+    poster: "/images/the-others.jpg"
+  },
+  {
+    title: "Pan's Labyrinth",
+    genre: "Fantasy",
+    year: 2006,
+    countries: ["🇪🇸", "🇲🇽"],
+    poster: "/images/pans-labyrinth.jpg"
+  }
+];
+
+const FeaturedCarousel = () => {
   return (
-    <div className="featured-film-card">
-      <img src={poster} alt={`${title} poster`} className="film-poster" />
-      <div className="film-info">
-        <h3 className="film-title">{title}</h3>
-        <p className="film-meta">{genre} · {year}</p>
-        <div className="film-countries">
-          {countries.map((country, index) => (
-            <span key={index} className="country-flag">{country}</span>
-          ))}
-        </div>
-      </div>
+    <div className="carousel-container">
+      {filmData.map((film, index) => (
+        <FeaturedFilms key={index} {...film} />
+      ))}
     </div>
   );
 };
 
-export default FeaturedFilms;
+export default FeaturedCarousel;
