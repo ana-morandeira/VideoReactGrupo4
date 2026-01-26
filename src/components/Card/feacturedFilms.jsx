@@ -34,7 +34,8 @@ const filmData = [
 
 const FeaturedCarousel = () => {
   return (
-    <div className="carousel-container bg-gray-900 text-white">
+    <div className="flex gap-6 overflow-x-auto px-4 py-8 scrollbar-hide">
+
       {filmData.map((film, index) => (
         <FeaturedFilms key={index} {...film} />
       ))}
