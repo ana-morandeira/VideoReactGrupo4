@@ -164,6 +164,66 @@
           "trailer": "https://youtu.be/mcN_edLQHY4?si=r9B5Ec4e3uoambYc"
         }
       ]
+    },
+    {
+      "pais": "Francia",
+      "peliculas": [
+        {
+          "id": 15,
+          "titulo": "Volver",
+          "director": "Pedro Almodóvar",
+          "año": 2006,
+          "genero": "Comedia dramática",
+          "argumento": "Mujeres enfrentan secretos familiares y tragedias con humor y resiliencia.",
+          "imagen": "src/assets/images/francia/volver.jpg",
+          "imageCartel": "src/assets/images/francia/volverCartel.jpg",
+          "trailer": " https://youtu.be/hp4u67AV8VI?si=a-_zVUVGgFXVJ_Yr"
+        },
+        {
+          "id": 16,
+          "titulo": "Lo imposible",
+          "director": "J.A. Bayona",
+          "año": 2012,
+          "genero": "Drama",
+          "argumento": "Una familia lucha por sobrevivir al tsunami del Océano Índico en 2004.",
+          "imagen": "src/assets/images/francia/loImposible.jpg",
+          "imageCartel": "src/assets/images/francia/loImposibleCartel.jpg",
+          "trailer": "https://youtu.be/qAcNyfqIQkw?si=1m56tnA_LlQAX0cn"
+        },
+        {
+          "id": 17,
+          "titulo": "As Bestas",
+          "director": "Rodrigo Sorogoyen",
+          "año": 2022,
+          "genero": "Thriller",
+          "argumento": "Una pareja enfrenta la hostilidad de un pueblo rural tras mudarse allí.",
+          "imagen": "src/assets/images/francia/asBestas.jpg",
+          "imageCartel": "src/assets/images/francia/asBestasCartel.jpg",
+          "trailer": "https://youtu.be/8FfTwEbN9YA?si=ueG_luouix-PLibt"
+        },
+        {
+          "id": 18,
+          "titulo": "Mar adentrgit addo",
+          "director": "Alejandro Amenábar",
+          "año": 2004,
+          "genero": "Drama biográfico",
+          "argumento": "La lucha de Ramón Sampedro por el derecho a la eutanasia.",
+          "imagen": "src/assets/images/francia/marAdentro.jpg",
+          "imageCartel": "src/assets/images/francia/marAdentroCartel.jpg",
+          "trailer": "https://youtu.be/3p9Ff7mW8Yo?si=VYk1Yk1b5YJQK8eD"
+        },
+        {
+          "id": 19,
+          "titulo": "Los otros",
+          "director": "Alejandro Amenábar",
+          "año": 2001,
+          "genero": "Terror psicológico",
+          "argumento": "Una mujer y sus hijos viven en una casa embrujada con un oscuro secreto.",
+          "imagen": "src/assets/images/francia/losOtros.jpg",
+          "imageCartel": "src/assets/images/francia/losOtrosCartel.jpg",
+          "trailer": "https://youtu.be/6lbwX9FqvXw?si=U3j5bXJt1K3jz4oO"
+        }
+      ]
     }
   ]
 }
