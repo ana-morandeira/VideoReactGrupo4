@@ -115,9 +115,9 @@
           "año": 2001,
           "genero": "Terror",
           "argumento": "Fantasmas y secretos en un orfanato durante la Guerra Civil Española.",
-          "imagen": "mexico_3.jpg",
-          "imageCartel": "mexico_3_cartel.jpg",
-          "trailer": "https://www.youtube.com/embed/nLsc06A9Mls"
+          "imagen": "src/assets/images/mexico/elEspinazoDelDiablo.jpg",
+          "imageCartel": "src/assets/images/mexico/elEspinazoDelDiabloCartel.jpg",
+          "trailer": "https://youtu.be/c3gRqYu5olY?si=rZEfNELwzKDMvf-g"
         },
         {
           "id": 11,
@@ -126,9 +126,9 @@
           "año": 2000,
           "genero": "Drama",
           "argumento": "Tres vidas se cruzan trágicamente tras un accidente de coche en Ciudad de México.",
-          "imagen": "mexico_4.jpg",
-          "imageCartel": "mexico_4_cartel.jpg",
-          "trailer": "https://www.youtube.com/embed/L_U_V33O-yY"
+          "imagen": "src/assets/images/mexico/amoresPerros.jpg",
+          "imageCartel": "src/assets/images/mexico/amoresPerrosCartel.jpg",
+          "trailer": "  https://youtu.be/ebvWj98Yui0?si=pIouZgzVPjGr6d_f"
         },
         {
           "id": 12,
