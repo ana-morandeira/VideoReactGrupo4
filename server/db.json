@@ -137,9 +137,9 @@
           "año": 1993,
           "genero": "Terror",
           "argumento": "Un artefacto antiguo otorga la vida eterna pero a un precio terrible.",
-          "imagen": "mexico_5.jpg",
-          "imageCartel": "mexico_5_cartel.jpg",
-          "trailer": "https://www.youtube.com/embed/I0T0tY-9v_c"
+          "imagen": "src/assets/images/mexico/cronos.jpg",
+          "imageCartel": "src/assets/images/mexico/cronosCartel.jpg",
+          "trailer": "https://youtu.be/GBLIFd1rfgw?si=IHnRYY-1DSW8nBDW"
         },
         {
           "id": 13,
@@ -148,9 +148,9 @@
           "año": 2007,
           "genero": "Thriller",
           "argumento": "Tensión social extrema tras un asalto fallido en una urbanización privada.",
-          "imagen": "mexico_6.jpg",
-          "imageCartel": "mexico_6_cartel.jpg",
-          "trailer": "https://www.youtube.com/embed/fD36K8h_p-E"
+          "imagen": "src/assets/images/mexico/laZona.jpg",
+          "imageCartel": "src/assets/images/mexico/laZonaCartel.jpg",
+          "trailer": "https://youtu.be/kmyMNBdQKiY?si=lJ-9h2GNmNtQ1yID"
         },
         {
           "id": 14,
@@ -159,9 +159,9 @@
           "año": 2022,
           "genero": "Comedia dramática",
           "argumento": "Un periodista y documentalista mexicano vive una crisis existencial surrealista.",
-          "imagen": "mexico_7.jpg",
-          "imageCartel": "mexico_7_cartel.jpg",
-          "trailer": "https://www.youtube.com/embed/SOfK6WpSg5A"
+          "imagen": "src/assets/images/mexico/bardo.jpg",
+          "imageCartel": "src/assets/images/mexico/bardoCartel.jpg",
+          "trailer": "https://youtu.be/mcN_edLQHY4?si=r9B5Ec4e3uoambYc"
         }
       ]
     }
