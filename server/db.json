@@ -203,25 +203,47 @@
         },
         {
           "id": 18,
-          "titulo": "Mar adentrgit addo",
-          "director": "Alejandro Amenábar",
-          "año": 2004,
-          "genero": "Drama biográfico",
-          "argumento": "La lucha de Ramón Sampedro por el derecho a la eutanasia.",
-          "imagen": "src/assets/images/francia/marAdentro.jpg",
-          "imageCartel": "src/assets/images/francia/marAdentroCartel.jpg",
-          "trailer": "https://youtu.be/3p9Ff7mW8Yo?si=VYk1Yk1b5YJQK8eD"
+          "titulo": "Todo sobre mi madre",
+          "director": "Pedro Almodóvar",
+          "año": 1999,
+          "genero": "Drama",
+          "argumento": "Una madre busca al padre transgénero de su hijo tras una tragedia.",
+          "imagen": "src/assets/images/francia/todoSobreMiMadre.jpg",
+          "imageCartel": "src/assets/images/francia/todoSobreMiMadreCartel.jpg",
+          "trailer": "https://youtu.be/hcVEvcP1iAc?si=8Fpi8inJe779OUlv"
         },
         {
           "id": 19,
-          "titulo": "Los otros",
-          "director": "Alejandro Amenábar",
+          "titulo": "El reino",
+          "director": "Rodrigo Sorogoyen",
+          "año": 2018,
+          "genero": "Thriller político",
+          "argumento": "Un político corrupto lucha por salvar su carrera en medio de un escándalo.",
+          "imagen": "src/assets/images/francia/elReino.jpg",
+          "imageCartel": "src/assets/images/francia/elReinoCartel.jpg",
+          "trailer": "https://youtu.be/8TtE6P2M9ZM?si=wPDYABJseVPQCX3N"
+        },
+        {
+          "id": 20,
+          "titulo": "Un día perfecto",
+          "director": "Fernando León de Aranoa",
           "año": 2001,
-          "genero": "Terror psicológico",
-          "argumento": "Una mujer y sus hijos viven en una casa embrujada con un oscuro secreto.",
-          "imagen": "src/assets/images/francia/losOtros.jpg",
-          "imageCartel": "src/assets/images/francia/losOtrosCartel.jpg",
-          "trailer": "https://youtu.be/6lbwX9FqvXw?si=U3j5bXJt1K3jz4oO"
+          "genero": "Drama bélico",
+          "argumento": "Trabajadores humanitarios enfrentan desafíos durante una guerra civil en los Balcanes.",
+          "imagen": "src/assets/images/francia/unDiaPerfecto.jpg",
+          "imageCartel": "src/assets/images/francia/unDiaPerfectoCartel.jpg",
+          "trailer": "https://youtu.be/ZCjRHoYFAN8?si=nMd-8MImyWEGcwth"
+        },
+        {
+          "id": 21,
+          "titulo": "París,Texas",
+          "director": "Wim Wenders",
+          "año": 1984,
+          "genero": "Drama",
+          "argumento": "Un hombre perdido busca reconectar con su hijo y exesposa en Texas.",
+          "imagen": "src/assets/images/francia/parisTexas.jpg",
+          "imageCartel": "src/assets/images/francia/parisTexasCartel.jpg",
+          "trailer": " https://youtu.be/HaoKIfDfDxc?si=LFdhHYN160L0Y-bf"
         }
       ]
     }
