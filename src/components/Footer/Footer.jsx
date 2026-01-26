@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#0a0a0a] text-gray-500 py-10 px-8 font-serif border-t border-gray-900">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
         
-        {/* Lado Izquierdo: Logo, Descripción y Redes (Ocupa 6 de 12 columnas) */}
+        {}
         <div className="md:col-span-6">
           <div className="flex items-center gap-3 mb-6">
            {}
@@ -66,7 +66,7 @@ const Footer = () => {
       </div>
 
 
-      <div className="max-w-6xl mx-auto mt-16 pt-8 border-t border-gray-500/50 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-gray-600">
+      <div className="max-w-6xl mx-auto mt-16 pt-8   flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-gray-600">
         <p>© 2026 IBERIAN MOVIE — Todos los derechos reservados</p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <span>PRIVACIDAD</span>
