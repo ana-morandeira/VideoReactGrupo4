@@ -5,13 +5,12 @@ import Exclusive from './components/Exclusive/Exclusive'
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <Exclusive/>
-      <Footer/>
+    <div className='bg-black text-white'>
+      <Header />
+      
     </div>
   )
 }
 
 export default App
+

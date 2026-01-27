@@ -24,7 +24,7 @@ function Navbar() {
             <button className="lg:hidden" onClick={()=>IsOpenCheck(!isOpen)}>{isOpen ? "✖" : "☰"} </button>
         </div>
       
-      <nav className={`w-full lg:w-2/6 ${isOpen ? "flex" : "hidden"} md:flex` }>
+      <nav className={`w-full lg:w-2/6 ${isOpen ? "flex" : "hidden"} lg:flex` }>
         <ul className="flex flex-col lg:flex-row items-center justify-center w-full text-center text-2xl lg:text-3xl">
           <li className="flex-1 flex justify-center my-4 border-b-2 w-full lg:border-none">
             <a href="" className="hover:text-amber-200">
