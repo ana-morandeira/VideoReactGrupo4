@@ -23,7 +23,7 @@ const Footer = () => {
                   key={index} 
                   className="w-10 h-10 bg-[#1a1a1a] rounded flex items-center justify-center transition-all cursor-pointer text-gray-600 hover:text-[#c5a04a] border border-transparent hover:border-[#c5a04a]/50"
                 >
-                  <Icon size={20} />
+                  <Icon size={35} />
                 </div>
               ))}
             </div>
