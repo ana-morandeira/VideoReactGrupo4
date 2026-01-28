@@ -5,7 +5,7 @@ import Exclusive from './components/Exclusive/Exclusive'
 
 function App() {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-black text-white min-h-screen'>
       <Header />
       
     </div>

@@ -8,20 +8,20 @@ function Navbar() {
  
 
   return (
-    <header className="flex flex-col lg:flex-row p-6 lg:p-8 border-b-2">
+    <header className="flex flex-col lg:flex-row p-6 lg:p-8 border-b-2 relative">
       <div className="flex justify-center items-center w-full lg:w-2/6 mb-4 lg:mb-0">
         <img
           src="src/assets/logos/iberianMovieLogo.svg"
           alt="Logo de la Aplicación Web del Videoclub"
-          className="max-w-[30%] mr-4"
+          className="lg:max-w-[30%] max-w-[13%] mr-4"
         />
-        <h1 className="text-4xl lg:text-5xl font-bold">
+        <h1 className="text-1xl lg:text-5xl font-bold">
           Iberian <span className="text-amber-300">Movie</span>
         </h1>
       </div>
 
-        <div>
-            <button className="lg:hidden" onClick={()=>IsOpenCheck(!isOpen)}>{isOpen ? "✖" : "☰"} </button>
+        <div className="absolute top-10 left-10">
+            <button className="lg:hidden cursor-pointer hover:text-amber-300" onClick={()=>IsOpenCheck(!isOpen)}>{isOpen ? "✖" : "☰"} </button>
         </div>
       
       <nav className={`w-full lg:w-2/6 ${isOpen ? "flex" : "hidden"} lg:flex` }>
@@ -47,7 +47,7 @@ function Navbar() {
       <div className="flex justify-center items-center w-full lg:w-2/6 mt-4 lg:mt-0">
         <input
           type="text"
-          className="bg-white w-4/6 text-black p-4 text-xl lg:w-2/3 lg:text-2xl border-2"
+          className="bg-white w-4/6 rounded-3xl block text-black lg:p-4 p-2 text-xl lg:w-2/3 lg:text-2xl border-2"
           placeholder="Buscar Película"
         />
       </div>
@@ -55,3 +55,4 @@ function Navbar() {
   );
 }
 export default Navbar;
+ 
