@@ -66,7 +66,9 @@ const FeaturedCarousel = () => {
     <div className="flex md:flex-col lg:flex-row gap-6 overflow-x-auto px-4 py-8 overflow-x-auto ">
 
       {filmData.map((film, index) => (
+        <div className='min-w-[180px] overflow-hidden'>
         <Card title="Titulo" urlImg={film.poster} key={index} {...film}  className="w-[25%]"/>
+        </div>
       ))}
     </div>
   );

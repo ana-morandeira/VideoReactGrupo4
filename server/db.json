@@ -247,5 +247,171 @@
         }
       ]
     }
+{
+      "pais": "italia",
+      "peliculas": [
+        {
+          "id": 22,
+          "titulo": "Dolor y gloria",
+          "director": "Pedro Almodóvar",
+          "año": 2019,
+          "genero": "Drama",
+          "argumento": "Un director de cine reflexiona sobre su vida y carrera.",
+          "imagen": "src/assets/images/italia/dolorYGloria.jpg",
+          "imageCartel": "src/assets/images/italia/dolorYGloriaCartel.jpg",
+          "trailer": "https://youtu.be/3c1w2_6mMro?si=V1oYkX1b1Y9y2j0E"
+        },
+        {
+          "id": 23,
+          "titulo": "elDiaDeLaBestia",
+          "director": "Álex de la Iglesia",
+          "año": 1995,
+          "genero": "Comedia negra",
+          "argumento": "Un sacerdote intenta evitar el apocalipsis en Madrid.",
+          "imagen": "src/assets/images/italia/elDiaDeLaBestia.jpg",
+          "imageCartel": "src/assets/images/italia/elDiaDeLaBestiaCartel.jpg",
+          "trailer": "https://youtu.be/3egY2bX0k1o?si=V6o1Y6Y6v8YJH1oF"
+        },
+        {
+          "id": 24,
+          "titulo": "elMetodo",
+          "director": "Marcelo Piñeyro",
+          "año": 2005,
+          "genero": "Thriller",
+          "argumento": "Un grupo de candidatos compite por un puesto en una empresa mediante un proceso de selección poco convencional.",
+          "imagen": "src/assets/images/italia/elMetodo.jpg",
+          "imageCartel": "src/assets/images/italia/elMetodoCartel.jpg",
+          "trailer": "https://youtu.be/1gKX1j3YV1o?si=V7o2Y7Y7v9YJH2oG"
+        },
+        {
+          "id": 25,
+          "titulo": "laIslaMinima",
+          "director": "Alberto Rodríguez",
+          "año": 2014,
+          "genero": "Thriller",
+          "argumento": "Dos detectives investigan la desaparición de dos adolescentes en las marismas del Guadalquivir.",
+          "imagen": "src/assets/images/italia/laIslaMinima.jpg",
+          "imageCartel": "src/assets/images/italia/laIslaMinimaCartel.jpg",
+          "trailer": "https://youtu.be/2gKX2j4YV2o?si=V8o3Y8Y8v0YJH3oH"
+        },
+        {
+          "id": 26,
+          "titulo": "laMalaEducacion",
+          "director": "Pedro Almodóvar",
+          "año": 2004,
+          "genero": "Drama",
+          "argumento": "Dos amigos de la infancia se reencuentran y revelan oscuros secretos del pasado.",
+          "imagen": "src/assets/images/italia/laMalaEducacion.jpg",
+          "imageCartel": "src/assets/images/italia/laMalaEducacionCartel.jpg",
+          "trailer": "https://youtu.be/4gKX3j5YV3o?si=V9o4Y9Y9v1YJH4oI"
+        },
+        {
+          "id": 27,
+          "titulo": "losOtros",
+          "director": "Alejandro Amenábar",
+          "año": 2001,
+          "genero": "Terror",
+          "argumento": "Una mujer y sus hijos viven en una casa embrujada durante la Segunda Guerra Mundial.",
+          "imagen": "src/assets/images/italia/losOtros.jpg",
+          "imageCartel": "src/assets/images/italia/losOtrosCartel.jpg",
+          "trailer": "https://youtu.be/5gKX4j6YV4o?si=W0o5Y0Y0v2YJH5oJ"
+        },
+        {
+          "id": 28,
+          "titulo": "vickyCristinaBarcelona",
+          "director": "Woody Allen",
+          "año": 2008,
+          "genero": "Comedia romántica",
+          "argumento": "Dos amigas estadounidenses visitan Barcelona y se enamoran de un pintor español.",
+          "imagen": "src/assets/images/italia/vickyCristinaBarcelona.jpg",
+          "imageCartel": "src/assets/images/italia/vickyCristinaBarcelonaCartel.jpg",
+          "trailer": "https://youtu.be/6gKX5j7YV5o?si=X1o6Y1Y1v3YJH6oK"
+        }
+
+      ]
+    },
+
+    pais": "italia",
+      "peliculas": [
+        {
+          "id": 22,
+          "titulo": "Dolor y gloria",
+          "director": "Pedro Almodóvar",
+          "año": 2019,
+          "genero": "Drama",
+          "argumento": "Un director de cine reflexiona sobre su vida y carrera.",
+          "imagen": "src/assets/images/italia/dolorYGloria.jpg",
+          "imageCartel": "src/assets/images/italia/dolorYGloriaCartel.jpg",
+          "trailer": "https://youtu.be/3c1w2_6mMro?si=V1oYkX1b1Y9y2j0E"
+        },
+        {
+          "id": 23,
+          "titulo": "elDiaDeLaBestia",
+          "director": "Álex de la Iglesia",
+          "año": 1995,
+          "genero": "Comedia negra",
+          "argumento": "Un sacerdote intenta evitar el apocalipsis en Madrid.",
+          "imagen": "src/assets/images/italia/elDiaDeLaBestia.jpg",
+          "imageCartel": "src/assets/images/italia/elDiaDeLaBestiaCartel.jpg",
+          "trailer": "https://youtu.be/3egY2bX0k1o?si=V6o1Y6Y6v8YJH1oF"
+        },
+        {
+          "id": 24,
+          "titulo": "elMetodo",
+          "director": "Marcelo Piñeyro",
+          "año": 2005,
+          "genero": "Thriller",
+          "argumento": "Un grupo de candidatos compite por un puesto en una empresa mediante un proceso de selección poco convencional.",
+          "imagen": "src/assets/images/italia/elMetodo.jpg",
+          "imageCartel": "src/assets/images/italia/elMetodoCartel.jpg",
+          "trailer": "https://youtu.be/1gKX1j3YV1o?si=V7o2Y7Y7v9YJH2oG"
+        },
+        {
+          "id": 25,
+          "titulo": "laIslaMinima",
+          "director": "Alberto Rodríguez",
+          "año": 2014,
+          "genero": "Thriller",
+          "argumento": "Dos detectives investigan la desaparición de dos adolescentes en las marismas del Guadalquivir.",
+          "imagen": "src/assets/images/italia/laIslaMinima.jpg",
+          "imageCartel": "src/assets/images/italia/laIslaMinimaCartel.jpg",
+          "trailer": "https://youtu.be/2gKX2j4YV2o?si=V8o3Y8Y8v0YJH3oH"
+        },
+        {
+          "id": 26,
+          "titulo": "laMalaEducacion",
+          "director": "Pedro Almodóvar",
+          "año": 2004,
+          "genero": "Drama",
+          "argumento": "Dos amigos de la infancia se reencuentran y revelan oscuros secretos del pasado.",
+          "imagen": "src/assets/images/italia/laMalaEducacion.jpg",
+          "imageCartel": "src/assets/images/italia/laMalaEducacionCartel.jpg",
+          "trailer": "https://youtu.be/4gKX3j5YV3o?si=V9o4Y9Y9v1YJH4oI"
+        },
+        {
+          "id": 27,
+          "titulo": "losOtros",
+          "director": "Alejandro Amenábar",
+          "año": 2001,
+          "genero": "Terror",
+          "argumento": "Una mujer y sus hijos viven en una casa embrujada durante la Segunda Guerra Mundial.",
+          "imagen": "src/assets/images/italia/losOtros.jpg",
+          "imageCartel": "src/assets/images/italia/losOtrosCartel.jpg",
+          "trailer": "https://youtu.be/5gKX4j6YV4o?si=W0o5Y0Y0v2YJH5oJ"
+        },
+        {
+          "id": 28,
+          "titulo": "vickyCristinaBarcelona",
+          "director": "Woody Allen",
+          "año": 2008,
+          "genero": "Comedia romántica",
+          "argumento": "Dos amigas estadounidenses visitan Barcelona y se enamoran de un pintor español.",
+          "imagen": "src/assets/images/italia/vickyCristinaBarcelona.jpg",
+          "imageCartel": "src/assets/images/italia/vickyCristinaBarcelonaCartel.jpg",
+          "trailer": "https://youtu.be/6gKX5j7YV5o?si=X1o6Y1Y1v3YJH6oK"
+        }
+
+      ]
+    },
   ]
 }
