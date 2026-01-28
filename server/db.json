@@ -246,7 +246,7 @@
           "trailer": " https://youtu.be/HaoKIfDfDxc?si=LFdhHYN160L0Y-bf"
         }
       ]
-    }
+    },
 {
       "pais": "italia",
       "peliculas": [
@@ -263,7 +263,7 @@
         },
         {
           "id": 23,
-          "titulo": "elDiaDeLaBestia",
+          "titulo": "El dia de la bestia",
           "director": "Álex de la Iglesia",
           "año": 1995,
           "genero": "Comedia negra",
@@ -274,7 +274,7 @@
         },
         {
           "id": 24,
-          "titulo": "elMetodo",
+          "titulo": "El método",
           "director": "Marcelo Piñeyro",
           "año": 2005,
           "genero": "Thriller",
@@ -296,7 +296,7 @@
         },
         {
           "id": 26,
-          "titulo": "laMalaEducacion",
+          "titulo": "La mala educación",
           "director": "Pedro Almodóvar",
           "año": 2004,
           "genero": "Drama",
@@ -307,7 +307,7 @@
         },
         {
           "id": 27,
-          "titulo": "losOtros",
+          "titulo": "Los otros",
           "director": "Alejandro Amenábar",
           "año": 2001,
           "genero": "Terror",
@@ -318,7 +318,7 @@
         },
         {
           "id": 28,
-          "titulo": "vickyCristinaBarcelona",
+          "titulo": "Vicky Cristina Barcelona",
           "director": "Woody Allen",
           "año": 2008,
           "genero": "Comedia romántica",
@@ -330,88 +330,169 @@
 
       ]
     },
-
-    pais": "italia",
+    {
+      "pais": "chile",
       "peliculas": [
         {
-          "id": 22,
-          "titulo": "Dolor y gloria",
-          "director": "Pedro Almodóvar",
-          "año": 2019,
+          "id": 29,
+          "titulo": "El club",
+          "director": "Pablo Larraín",
+          "año": 2015,
           "genero": "Drama",
-          "argumento": "Un director de cine reflexiona sobre su vida y carrera.",
-          "imagen": "src/assets/images/italia/dolorYGloria.jpg",
-          "imageCartel": "src/assets/images/italia/dolorYGloriaCartel.jpg",
-          "trailer": "https://youtu.be/3c1w2_6mMro?si=V1oYkX1b1Y9y2j0E"
+          "argumento": "Sacerdotes retirados enfrentan sus oscuros secretos en una remota casa costera.",
+          "imagen": "src/assets/images/chile/elClub.jpg",
+          "imageCartel": "src/assets/images/chile/elClubCartel.jpg",
+          "trailer": "https://youtu.be/7gKX0j2YV0o?si=Y5o0Y5Y5v7YJH0oE"
         },
         {
-          "id": 23,
-          "titulo": "elDiaDeLaBestia",
-          "director": "Álex de la Iglesia",
-          "año": 1995,
-          "genero": "Comedia negra",
-          "argumento": "Un sacerdote intenta evitar el apocalipsis en Madrid.",
-          "imagen": "src/assets/images/italia/elDiaDeLaBestia.jpg",
-          "imageCartel": "src/assets/images/italia/elDiaDeLaBestiaCartel.jpg",
-          "trailer": "https://youtu.be/3egY2bX0k1o?si=V6o1Y6Y6v8YJH1oF"
+          "id": 30,
+          "titulo": "Gloria",
+          "director": "Sebastián Lelio",
+          "año": 2013,
+          "genero": "Drama",
+          "argumento": "Una mujer de mediana edad busca el amor y la felicidad en Santiago de Chile.",
+          "imagen": "src/assets/images/chile/gloria.jpg",
+          "imageCartel": "src/assets/images/chile/gloriaCartel.jpg",
+          "trailer": "https://youtu.be/8gKX1j3YV1o?si=Z6o1Y6Y6v9YJH1oF"
         },
         {
-          "id": 24,
-          "titulo": "elMetodo",
-          "director": "Marcelo Piñeyro",
-          "año": 2005,
-          "genero": "Thriller",
-          "argumento": "Un grupo de candidatos compite por un puesto en una empresa mediante un proceso de selección poco convencional.",
-          "imagen": "src/assets/images/italia/elMetodo.jpg",
-          "imageCartel": "src/assets/images/italia/elMetodoCartel.jpg",
-          "trailer": "https://youtu.be/1gKX1j3YV1o?si=V7o2Y7Y7v9YJH2oG"
+          "id": 31,
+          "titulo": "La contadora de películas",
+          "director": "Sebastián Lelio",
+          "año": 2016,
+          "genero": "Drama",
+          "argumento": "Una niña encuentra consuelo en las películas durante la dictadura chilena.",
+          "imagen": "src/assets/images/chile/laContadoraDePeliculas.jpg",
+          "imageCartel": "src/assets/images/chile/laContadoraDePeliculasCartel.jpg",
+          "trailer": "https://youtu.be/9gKX2j4YV2o?si=A7o2Y7Y7v0YJH2oG"
         },
         {
-          "id": 25,
-          "titulo": "laIslaMinima",
-          "director": "Alberto Rodríguez",
-          "año": 2014,
-          "genero": "Thriller",
-          "argumento": "Dos detectives investigan la desaparición de dos adolescentes en las marismas del Guadalquivir.",
-          "imagen": "src/assets/images/italia/laIslaMinima.jpg",
-          "imageCartel": "src/assets/images/italia/laIslaMinimaCartel.jpg",
-          "trailer": "https://youtu.be/2gKX2j4YV2o?si=V8o3Y8Y8v0YJH3oH"
-        },
-        {
-          "id": 26,
-          "titulo": "laMalaEducacion",
-          "director": "Pedro Almodóvar",
+          "id": 32,
+          "titulo": "Machuca",
+          "director": "Andrés Wood",
           "año": 2004,
           "genero": "Drama",
-          "argumento": "Dos amigos de la infancia se reencuentran y revelan oscuros secretos del pasado.",
-          "imagen": "src/assets/images/italia/laMalaEducacion.jpg",
-          "imageCartel": "src/assets/images/italia/laMalaEducacionCartel.jpg",
-          "trailer": "https://youtu.be/4gKX3j5YV3o?si=V9o4Y9Y9v1YJH4oI"
+          "argumento": "La amistad entre dos niños de diferentes clases sociales durante el golpe de estado en Chile.",
+          "imagen": "src/assets/images/chile/machuca.jpg",
+          "imageCartel": "src/assets/images/chile/machucaCartel.jpg",
+          "trailer": "https://youtu.be/0gKX3j5YV3o?si=B9o4Y9Y9v1YJH4oI"
         },
         {
-          "id": 27,
-          "titulo": "losOtros",
-          "director": "Alejandro Amenábar",
-          "año": 2001,
-          "genero": "Terror",
-          "argumento": "Una mujer y sus hijos viven en una casa embrujada durante la Segunda Guerra Mundial.",
-          "imagen": "src/assets/images/italia/losOtros.jpg",
-          "imageCartel": "src/assets/images/italia/losOtrosCartel.jpg",
-          "trailer": "https://youtu.be/5gKX4j6YV4o?si=W0o5Y0Y0v2YJH5oJ"
+          "id": 33,
+          "titulo": "Neruda",
+          "director": "Pablo Larraín",
+          "año": 2016,
+          "genero": "Biografía, Drama",
+          "argumento": "La vida del poeta Pablo Neruda durante su exilio en Chile.",
+          "imagen": "src/assets/images/chile/neruda.jpg",
+          "imageCartel": "src/assets/images/chile/nerudaCartel.jpg",
+          "trailer": "https://youtu.be/1gKX4j6YV4o?si=C0o5Y0Y0v2YJH5oJ"
         },
         {
-          "id": 28,
-          "titulo": "vickyCristinaBarcelona",
-          "director": "Woody Allen",
-          "año": 2008,
-          "genero": "Comedia romántica",
-          "argumento": "Dos amigas estadounidenses visitan Barcelona y se enamoran de un pintor español.",
-          "imagen": "src/assets/images/italia/vickyCristinaBarcelona.jpg",
-          "imageCartel": "src/assets/images/italia/vickyCristinaBarcelonaCartel.jpg",
-          "trailer": "https://youtu.be/6gKX5j7YV5o?si=X1o6Y1Y1v3YJH6oK"
+          "id": 34,
+          "titulo": "No",
+          "director": "Pablo Larraín",
+          "año": 2012,
+          "genero": "Drama histórico",
+          "argumento": "Una campaña publicitaria busca derrotar a Pinochet en el plebiscito de 1988.",
+          "imagen": "src/assets/images/chile/no.jpg",
+          "imageCartel": "src/assets/images/chile/noCartel.jpg",
+          "trailer": "https://youtu.be/2gKX5j7YV5o?si=D1o6Y1Y1v3YJH6oK"
+        },
+        {
+          "id": 35,
+          "titulo": "Una mujer fantástica",
+          "director": "Sebastián Lelio",
+          "año": 2014,
+          "genero": "Drama",
+          "argumento": "Una mujer transgénero se enfrenta a la sociedad y su familia en Chile.",
+          "imagen": "src/assets/images/chile/unaMujerFantástica.jpg",
+          "imageCartel": "src/assets/images/chile/unaMujerFantásticaCartel.jpg",
+          "trailer": "https://youtu.be/3gKX6j8YV6o?si=E2o7Y2Y2v4YJH7oL"
         }
-
       ]
     },
+    {
+      "pais": "uk",
+      "peliculas": [
+        {
+          "id": 36,
+          "titulo": "Agora",
+          "director": "Alejandro Amenábar",
+          "año": 2009,
+          "genero": "Drama histórico",
+          "argumento": "La vida de Hipatia, filósofa y astrónoma en la Alejandría del siglo IV.",
+          "imagen": "src/assets/images/uk/agora.jpg",
+          "imageCartel": "src/assets/images/uk/agoraCartel.jpg",
+          "trailer": "https://youtu.be/4gKX7j9YV7o?si=F3o8Y3Y3v5YJH8oM"
+        },
+        {
+          "id": 37,
+          "titulo": "El maquinista",
+          "director": "Brad Anderson",
+          "año": 2004,
+          "genero": "Thriller psicológico",
+          "argumento": "Un maquinista sufre de insomnio severo que afecta su salud mental.",
+          "imagen": "src/assets/images/uk/elMaquinista.jpg",
+          "imageCartel": "src/assets/images/uk/elMaquinistaCartel.jpg",
+          "trailer": "https://youtu.be/5gKX8j0YV8o?si=G4o9Y4Y4v6YJH9oN"
+        },
+        {
+          "id": 38,
+          "titulo": "Exodus: Dioses y reyes",
+          "director": "Ridley Scott",
+          "año": 2014,
+          "genero": "Épico bíblico",
+          "argumento": "Moisés lidera a los israelitas fuera de la esclavitud en Egipto.",
+          "imagen": "src/assets/images/uk/exodusDiosesYReyes.jpg",
+          "imageCartel": "src/assets/images/uk/exodusDiosesYReyesCartel.jpg",
+          "trailer": "https://youtu.be/6gKX9j1YV9o?si=H5o0Y5Y5v7YJH0oE"
+        },
+        {
+          "id": 39,
+          "titulo": "Klaus",
+          "director": "Sergio Pablos",
+          "año": 2019,
+          "genero": "Animación, Comedia",
+          "argumento": "Un cartero y un fabricante de juguetes traen alegría a un pueblo frío y distante.",
+          "imagen": "src/assets/images/uk/klaus.jpg",
+          "imageCartel": "src/assets/images/uk/klausCartel.jpg",
+          "trailer": "https://youtu.be/7gKX0j2YV0o?si=Y5o0Y5Y5v7YJH0oE"
+        },
+        {
+          "id": 40,
+          "titulo": "La librería",
+          "director": "Isabel Coixet",
+          "año": 2017,
+          "genero": "Drama",
+          "argumento": "Una mujer abre una librería en un pequeño pueblo costero enfrentando la oposición local.",
+          "imagen": "src/assets/images/uk/laLibreria.jpg",
+          "imageCartel": "src/assets/images/uk/laLibreriaCartel.jpg",
+          "trailer": "https://youtu.be/8gKX1j3YV1o?si=Z6o1Y6Y6v9YJH1oF"
+        },
+        {
+          "id": 41,
+          "titulo": "Palmeras en la nieve",
+          "director": "Fernando González Molina",
+          "año": 2015,
+          "genero": "Romance, Drama",
+          "argumento": "Una pareja se enfrenta a los desafíos de la vida moderna.",
+          "imagen": "src/assets/images/uk/palmerasEnLaNieve.jpg",
+          "imageCartel": "src/assets/images/uk/palmerasEnLaNieveCartel.jpg",
+          "trailer": "https://youtu.be/9gKX2j4YV2o?si=A7o2Y7Y7v0YJH2oG"
+        },
+        {
+          "id": 42,
+          "titulo": "Un monstruo viene a verme",
+          "director": "J.A. Bayona",
+          "año": 2016,
+          "genero": "Fantasía, Drama",
+          "argumento": "Un niño enfrenta la enfermedad de su madre con la ayuda de un monstruo imaginario.",
+          "imagen": "src/assets/images/uk/unMonstruoVieneAVerme.jpg",
+          "imageCartel": "src/assets/images/uk/unMonstruoVieneAVermeCartel.jpg",
+          "trailer": "https://youtu.be/0gKX3j5YV3o?si=B9o4Y9Y9v1YJH4oI"
+        }
+      ]
+    }
   ]
 }
