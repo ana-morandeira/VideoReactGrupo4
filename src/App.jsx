@@ -7,7 +7,7 @@ import ContemporaryCinema from "./components/ContemporaryCinema/ContemporaryCine
 
 function App() {
   return (
-    <div>
+    <div className="bg-black text-white">
       <Header />
       <ContemporaryCinema />
       <ClassicJewels />
