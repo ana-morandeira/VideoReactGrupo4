@@ -1,9 +1,11 @@
+import Card from "../Card/Card.jsx"
+import ClassicJewels from "../ClassicJewels/ClassicJewels.jsx";
+import ContemporaryCinema from "../ContemporaryCinema/ContemporaryCinema.jsx";
 function Main() {
     return (
         <>
-            <h1 className="text-3xl font-bold text-center mt-10">
-                Videoclub 📚
-            </h1>
+            <ContemporaryCinema />
+            <ClassicJewels />
         </>
     )
 }

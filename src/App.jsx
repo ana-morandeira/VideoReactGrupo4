@@ -1,25 +1,14 @@
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
-import Footer from './components/Footer/Footer'
-import Exclusive from './components/Exclusive/Exclusive'
-import FeaturedFilms from './components/Card/feacturedFilms'
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <Exclusive/>
-      <Footer/>
-      <FeaturedFilms 
-        title="Inception"
-        genre="Sci-Fi"
-        year="2010"
-        countries={["USA", "UK"]}
-        poster="https://example.com/inception-poster.jpg"
-      />
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
+
+
