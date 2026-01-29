@@ -42,8 +42,8 @@ function Card({title,urlImg,alt}) {
     return (
         <article className=" text-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow h-[400px] w-[300px] flex flex-col">
             <div className='h-[80%] relative'>
-                <CountryFeaturedCard countryName="Spain" countryImage={urlImg} className=""/>
-                 
+                <CountryFeaturedCard countryName="Spain"className=""/>
+                 <img src={urlImg} className=" object-cover w-full h-full"/>
             </div>
             <div className="bg-black p-4 h-[20%]">
                 <h4 className="font-bold">{title}</h4>

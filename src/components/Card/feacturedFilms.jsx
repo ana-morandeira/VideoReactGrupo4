@@ -10,7 +10,7 @@ export default function FeacturedFilms({movies = []})  {
 
       {movies.map((movie) => (
         <div key={movie.id} className='min-w-[180px] overflow-hidden'>
-        <Card  title="Titulo" urlImg={movie.imagen}   className="w-[25%]"/>
+        <Card  urlImg={movie.imagen} />
         </div>
       ))}
     </div>

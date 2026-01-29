@@ -25,11 +25,14 @@ function Home() {
   },[])
 
 
-const argentina = movies.find(country => country.pais === "Argentina");
-const peliculasArgentina = argentina ? argentina.peliculas : [];
+const italia = movies.find(country => country.pais === "italia");
+const peliculasItalia = italia ? italia.peliculas : [];
 
-const mexico = movies.find(country => country.pais === "México");
-const peliculasMexico= argentina ? mexico.peliculas : [];
+const francia = movies.find(country => country.pais === "Francia");
+const peliculasFrancia = francia ? francia.peliculas : [];
+
+const uk = movies.find(country => country.pais === "uk");
+const peliculasUk = uk ? uk.peliculas : [];
 
 
 
@@ -37,11 +40,9 @@ const peliculasMexico= argentina ? mexico.peliculas : [];
   return (
     <div className="bg-black text-white">
       <Header />
-      <FeacturedFilms movies={movies} />
-      <ContemporaryCinema movies={peliculasArgentina}/>
-      <ContemporaryCinema movies={peliculasMexico}/>
-      <ContemporaryCinema movies={peliculasArgentina}/>
-
+      <FeacturedFilms movies={peliculasUk} />
+      <FeacturedFilms movies={peliculasFrancia} />
+      <FeacturedFilms movies={peliculasItalia} />
       <Footer />
     </div>
   );
