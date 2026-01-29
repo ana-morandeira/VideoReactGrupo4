@@ -1,4 +1,5 @@
 import Header from "../components/Header/Header"
+import FeacturedFilms from "../components/Card/FeacturedFilms"
 import ContemporaryCinema from "../components/ContemporaryCinema/ContemporaryCinema"
 import ClassicJewels from "../components/ClassicJewels/ClassicJewels"
 import Footer from "../components/Footer/Footer"
@@ -36,10 +37,11 @@ const peliculasMexico= argentina ? mexico.peliculas : [];
   return (
     <div className="bg-black text-white">
       <Header />
+      <FeacturedFilms movies={movies} />
       <ContemporaryCinema movies={peliculasArgentina}/>
       <ContemporaryCinema movies={peliculasMexico}/>
       <ContemporaryCinema movies={peliculasArgentina}/>
-      <ClassicJewels />
+
       <Footer />
     </div>
   );
