@@ -1,16 +1,135 @@
-# React + Vite
+# 🎬 VideoReactGrupo4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un proyecto frontend construido con React y Vite para una pequeña aplicación de vídeo/demo. Este README explica la estructura, cómo arrancar la API local (JSON server), el flujo de datos y quiénes son los responsables del proyecto.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Características principales
 
-## React Compiler
+- 🚀 Arranque rápido con Vite
+- 🧩 Componentes React organizados en `src/components`
+- 🔁 API de desarrollo basada en `json-server` usando `server/db.json`
+- 🎨 Estilos con Tailwind (y soporte de `react-icons`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+📦 Scripts útiles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Usa los scripts definidos en `package.json`:
+
+```bash
+# Levantar la app en modo desarrollo
+npm run dev
+
+# Levantar la API local (json-server) en http://localhost:3000
+npm run api
+
+# Construir para producción
+npm run build
+
+# Previsualizar build localmente
+npm run preview
+```
+
+---
+
+🧭 Flujo de datos / Conexión con la API
+
+1. `server/db.json` actúa como la base de datos falsa (JSON) usada en desarrollo.
+2. Ejecuta `npm run api` para iniciar `json-server` (por defecto en `http://localhost:3000`).
+3. El frontend (Vite) realiza peticiones HTTP a la API local — revisa `src/services/api.js` para la configuración de las rutas y métodos.
+4. Flujo típico:
+
+- El componente monta y llama a `fetch` / helpers en `src/services/api.js`.
+- La API (json-server) responde con recursos desde `server/db.json`.
+- El estado se actualiza en los componentes y la UI renderiza los datos.
+
+Ejemplo de endpoint (json-server):
+
+```
+GET http://localhost:3000/videos
+POST http://localhost:3000/videos
+```
+
+> Nota: adapta las rutas según las colecciones definidas en `server/db.json`.
+
+---
+
+🗂 Estructura principal del proyecto
+
+- public/ — recursos estáticos
+- server/db.json — datos mock para `json-server` (API local)
+- src/
+	- assets/ — imágenes y logos
+	- components/ — componentes React organizados por dominio
+	- pages/ — vistas/route pages
+	- services/api.js — módulos para consumir la API
+	- main.jsx, App.jsx — punto de entrada
+
+---
+
+🔧 Dependencias importantes
+
+- React 19
+- Vite
+- json-server (dev) — para la API local
+- react-router-dom — routing
+- react-icons — íconos UI
+
+Puedes ver las versiones exactas en `package.json`.
+
+---
+
+👥 Equipo
+
+- Alberto García — Desarrollador
+- Ives Andrés — Desarrollador
+- Ana Morán — Desarrolladora & Product Owner
+- Suso Suárez — Desarrollador & Scrum Master
+
+---
+
+🛠 Flujo de trabajo recomendado (desarrollo)
+
+1. Clona el repo y instala dependencias:
+
+```bash
+npm install
+```
+
+2. Levanta la API local:
+
+```bash
+npm run api
+```
+
+3. En otra terminal, arranca la app:
+
+```bash
+npm run dev
+```
+
+4. Abre `http://localhost:5173` (o puerto que indique Vite) y prueba la app.
+
+---
+
+📝 Contribuciones
+
+- Crea una rama por feature: `feat/mi-feature`
+- Haz commits claros y atómicos
+- Abre Pull Requests contra `main` y pide revisión del equipo
+
+---
+
+❗ Consideraciones
+
+- `server/db.json` es solo para desarrollo; para producción usa una API real.
+- Revisa `src/services/api.js` antes de cambiar endpoints.
+
+---
+
+📄 Licencia
+
+Este proyecto no incluye licencia explícita.
+---
+
