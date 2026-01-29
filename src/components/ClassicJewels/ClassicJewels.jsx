@@ -1,7 +1,4 @@
 export default function ClassicJewels({movies = []}) {
-
-
-
     return (
         <div className="w-full flex flex-col gap-8">
             {/* Top row */}

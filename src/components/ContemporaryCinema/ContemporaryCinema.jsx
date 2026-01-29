@@ -1,6 +1,4 @@
 export default function ContemporaryCinema({movies = []}) {
-
-
     return (
         <section className="w-full flex flex-col gap-10">
             {/* Top row */}
