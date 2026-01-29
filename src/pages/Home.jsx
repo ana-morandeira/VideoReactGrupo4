@@ -28,7 +28,7 @@ const argentina = movies.find(country => country.pais === "Argentina");
 const peliculasArgentina = argentina ? argentina.peliculas : [];
 
 const mexico = movies.find(country => country.pais === "México");
-const peliculasMexico= argentina ? mexico.peliculas : [];
+const peliculasMexico= mexico ? mexico.peliculas : [];
 
 
 
@@ -37,9 +37,7 @@ const peliculasMexico= argentina ? mexico.peliculas : [];
     <div className="bg-black text-white">
       <Header />
       <ContemporaryCinema movies={peliculasArgentina}/>
-      <ContemporaryCinema movies={peliculasMexico}/>
-      <ContemporaryCinema movies={peliculasArgentina}/>
-      <ClassicJewels />
+      <ClassicJewels movies={peliculasMexico}/>
       <Footer />
     </div>
   );
