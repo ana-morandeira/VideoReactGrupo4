@@ -134,12 +134,5 @@ Este proyecto no incluye licencia explícita. Añade una licencia si necesitas c
 
 ---
 
-Si quieres, puedo:
-
-- Añadir badges y una cabecera con más estilo (shields.io).
-- Generar un `CONTRIBUTING.md` básico.
-- Documentar `server/db.json` con la estructura exacta de los recursos.
-
-— Equipo de desarrollo
 
 
