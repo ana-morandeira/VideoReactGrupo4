@@ -1,20 +1,14 @@
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
-import Footer from './components/Footer/Footer'
-import Exclusive from './components/Exclusive/Exclusive'
-import ClassicJewels from "./components/ClassicJewels/ClassicJewels.jsx";
-import ContemporaryCinema from "./components/ContemporaryCinema/ContemporaryCinema.jsx";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-black text-white">
-      <Header />
-      <ContemporaryCinema />
-      <ClassicJewels />
-      <Footer />
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
+
 
