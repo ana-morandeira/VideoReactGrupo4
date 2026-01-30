@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import MovieCard from "../components/MovieCard";
-import { getAllMovies, deleteMovieFromServer } from "../services/MovieServices";
-import AddMovies from "../components/AddMovie";
+import MovieCard from "../components/crudAxios/MovieCard.jsx";
+import { getAllMovies, deleteMovieFromServer } from "../services/MoviesServices";
+import AddMovies from "../components/crudAxios/AddMovie.jsx";
 
 const Peliculas = () => {
   const [movies, setMovies] = useState([]);

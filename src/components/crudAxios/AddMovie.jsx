@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { createMovie, updateMovie } from "../services/MovieServices";
+import { createMovie, updateMovie } from "../../services/MoviesServices";
 
 const AddMovie = ({ MovieEdit, onFormSubmit }) => {
   const [titulo, setTitulo] = useState("");

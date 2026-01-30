@@ -3,10 +3,11 @@ const images = import.meta.glob(
   '/src/assets/images/**/*.{jpg,jpeg,png,webp}',
   { eager: true }
 );
-const MovieCard = ({ movie, pais, onDelete, onEdit }) => {
+const MovieCard = ({ movie = {}, pais, onDelete, onEdit }) => {
+  if (!movie) return null;
   // Función para manejar las rutas de imágenes
   const getImageUrl = (imagePath) => {
-    if (!imagePath) return "imagen no disponible";
+    if (!imagePath) return '';
 
     const key = `/${imagePath}`;
     return images[key]?.default || '';
@@ -29,16 +30,15 @@ const MovieCard = ({ movie, pais, onDelete, onEdit }) => {
       {/* Contenido */}
       <div className="p-4 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">
-          <h2 className="font-bold text-xl text-gray-900 leading-tight">
+          <h2 className="font-bold text-xl text-white leading-tight">
             {movie.titulo || "Sin título"}
           </h2>
           <span className="bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">
-            {/* Ajustado al nombre real en tu JSON */}
             {movie.año || movie.año || "S/A"}
           </span>
         </div>
 
-        <p className="text white text-sm font-medium mb-2">
+        <p className="text-white text-sm font-medium mb-2">
           Director: <span className="font-normal">{movie.director || "Desconocido"}</span>
         </p>
         
