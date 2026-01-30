@@ -41,7 +41,7 @@ const Peliculas = () => {
 
   return (
     <div className="container">
-      <h1 className="text-center my-8 text-3xl font-bold text-white tracking-wide "> 🎬 Cartelera de Películas </h1>
+      <h1 className="bg-black text-center my-8 text-3xl font-bold text-white tracking-wide "> 🎬 Cartelera de Películas </h1>
 
       <AddMovies
         MovieEdit={MovieEdit}

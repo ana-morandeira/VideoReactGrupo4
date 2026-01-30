@@ -59,10 +59,12 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
     setPais("Argentina");
   };
 
-  return (
-   <div className="w-full max-w-md sm:max-w-lg lg:max-w-xl mx-auto mt-8 mb-16 p-4 sm:p-6 rounded-xl bg-white shadow-xl">
+  const inputClass =
+    "bg-gray-900 text-white placeholder-gray-400 border border-gray-600 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500";
 
-      <h1 className="text-2xl font-bold mb-6 text-center">
+  return (
+    <div className="w-full max-w-md sm:max-w-lg lg:max-w-xl mx-auto mt-8 mb-16 p-6 rounded-xl bg-gray-800 shadow-xl">
+      <h1 className="text-2xl font-bold mb-6 text-center text-white">
         {MovieEdit ? "Editar Película" : "Añadir Película"}
       </h1>
 
@@ -70,7 +72,7 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
         <input
           type="text"
           placeholder="Título"
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={titulo}
           onChange={(e) => setTitulo(e.target.value)}
           required
@@ -79,7 +81,7 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
         <input
           type="text"
           placeholder="Director"
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={director}
           onChange={(e) => setDirector(e.target.value)}
           required
@@ -88,7 +90,7 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
         <input
           type="number"
           placeholder="Año"
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={año}
           onChange={(e) => setAño(e.target.value)}
           required
@@ -97,14 +99,14 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
         <input
           type="text"
           placeholder="Género"
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={genero}
           onChange={(e) => setGenero(e.target.value)}
         />
 
         <textarea
           placeholder="Argumento"
-          className="border rounded-md px-3 py-2"
+          className={`${inputClass} resize-none`}
           value={argumento}
           onChange={(e) => setArgumento(e.target.value)}
         />
@@ -112,7 +114,7 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
         <input
           type="text"
           placeholder="Ruta imagen (src/assets/...)"
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={imagen}
           onChange={(e) => setImagen(e.target.value)}
         />
@@ -120,13 +122,13 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
         <input
           type="text"
           placeholder="Ruta cartel (src/assets/...)"
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={imageCartel}
           onChange={(e) => setImageCartel(e.target.value)}
         />
 
         <select
-          className="border rounded-md px-3 py-2"
+          className={inputClass}
           value={pais}
           onChange={(e) => setPais(e.target.value)}
         >
@@ -137,7 +139,7 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
 
         <button
           type="submit"
-          className="bg-blue-600 text-white font-semibold py-2 rounded-md hover:bg-blue-700"
+          className="bg-blue-600 text-white font-semibold py-2 rounded-md hover:bg-blue-700 transition-colors"
         >
           {MovieEdit ? "Guardar cambios" : "Guardar película"}
         </button>
