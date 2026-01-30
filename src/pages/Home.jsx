@@ -32,8 +32,17 @@ const peliculasArgentina = argentina ? argentina.peliculas : [];
 const mexico = movies.find(country => country.pais === "México");
 const peliculasMexico= mexico ? mexico.peliculas : [];
 
+const chile = movies.find(country => country.pais === "chile");
+const peliculasChile= chile ? chile.peliculas : [];
+
 const francia = movies.find(country => country.pais === "Francia");
 const peliculasFrancia= francia ? francia.peliculas : [];
+
+const uk = movies.find(country => country.pais === "uk");
+const peliculasUk = uk ? uk.peliculas : [];
+
+const italia = movies.find(country => country.pais === "italia");
+const peliculasItalia= italia ? italia.peliculas : [];
 
 
 
@@ -41,7 +50,9 @@ const peliculasFrancia= francia ? francia.peliculas : [];
   return (
     <div className="bg-black text-white">
       <Header />
+      <ClassicJewels movies={peliculasArgentina}/>
       <ClassicJewels movies={peliculasMexico}/>
+      <ClassicJewels movies={peliculasChile}/>
       <Footer />
     </div>
   );
