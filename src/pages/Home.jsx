@@ -41,11 +41,7 @@ const peliculasFrancia= francia ? francia.peliculas : [];
   return (
     <div className="bg-black text-white">
       <Header />
-      <ContemporaryCinema movies={peliculasArgentina}/>
       <ClassicJewels movies={peliculasMexico}/>
-      <ClassicJewels movies={peliculasFrancia}/>
-      <ChileanMovies movies={peliculasFrancia}/>
-      <UruguayMovies movies={peliculasFrancia}/>
       <Footer />
     </div>
   );
