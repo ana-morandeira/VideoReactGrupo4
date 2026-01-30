@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header"
 import ContemporaryCinema from "../components/ContemporaryCinema/ContemporaryCinema"
-import ClassicJewels from "../components/ClassicJewels/ClassicJewels"
+import IberoAmericanMovies from "../components/IberoAmericanMovies/IberoAmericanMovies"
 import Footer from "../components/Footer/Footer"
 
 import { getMovies } from "../services/api"
@@ -26,20 +26,22 @@ function Home() {
 
 const argentina = movies.find(country => country.pais === "Argentina");
 const peliculasArgentina = argentina ? argentina.peliculas : [];
+const argentinaCategory = "Argentina";
 
 const mexico = movies.find(country => country.pais === "México");
-const peliculasMexico= argentina ? mexico.peliculas : [];
+const peliculasMexico= mexico ? mexico.peliculas : [];
+const mexicoCategory = "Mexico";
 
-
-
+const chile = movies.find(country => country.pais === "chile");
+const peliculasChile= chile ? chile.peliculas : [];
+const chileCategory = "Chile";
 
   return (
     <div className="bg-black text-white">
       <Header />
-      <ContemporaryCinema movies={peliculasArgentina}/>
-      <ContemporaryCinema movies={peliculasMexico}/>
-      <ContemporaryCinema movies={peliculasArgentina}/>
-      <ClassicJewels />
+      <IberoAmericanMovies movies={peliculasArgentina} category={argentinaCategory}/>
+      <IberoAmericanMovies movies={peliculasMexico} category={mexicoCategory}/>
+      <IberoAmericanMovies movies={peliculasChile} category={chileCategory}/>
       <Footer />
     </div>
   );
