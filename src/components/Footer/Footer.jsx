@@ -7,7 +7,7 @@ const Footer = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           
-          {/* LADO IZQUIERDO: LOGO Y REDES */}
+          {}
           <div className="md:col-span-6 flex flex-col items-center">
             <div className="mb-10 mt-10">
               <img 
@@ -29,10 +29,10 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* LADO DERECHO: NAVEGACIÓN Y LEGAL (CENTRADO) */}
+        
           <div className="md:col-span-6 grid grid-cols-2 gap-8 pt-14 justify-items-center">
             
-            {/* Navegación */}
+            {}
             <div className="flex flex-col items-center text-center">
               <h3 className="text-[#c5a04a] font-bold text-[14px] uppercase tracking-[0.3em] mb-6">
                 Navegación
@@ -49,7 +49,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Legal */}
+            {}
             <div className="flex flex-col items-center text-center">
               <h3 className="text-[#c5a04a] font-bold text-[14px] uppercase tracking-[0.3em] mb-6">
                 Legal
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* BARRA INFERIOR */}
+        {}
         <div className="mt-16 pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest">
           <p className="text-white">© 2026 IBERIAN MOVIE — Todos los derechos reservados</p>
           

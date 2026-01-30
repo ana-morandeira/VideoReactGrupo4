@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
+import axios from 'axios';
+import { getAllMovies } from "../services/MoviesServices";
 import MoviesCard from "../components/MoviesCard";
-//importamos el componente
-import { getAllBooks } from "../services/MoviesServices";
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
 
-const fetchBooks = async () => {
+const fetchMovies = async () => {
     const data = await getAllMovies();
     setMovies(data);
   };

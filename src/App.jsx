@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Exclusive from './components/Exclusive/Exclusive'
 import ClassicJewels from "./components/ClassicJewels/ClassicJewels.jsx";
 import ContemporaryCinema from "./components/ContemporaryCinema/ContemporaryCinema.jsx";
+import MoviesCard from './components/MoviesCard.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <ContemporaryCinema />
       <ClassicJewels />
+      <MoviesCard/>
       <Footer />
     </div>
   )
