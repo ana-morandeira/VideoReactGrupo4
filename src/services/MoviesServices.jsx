@@ -5,12 +5,26 @@ const API_URL = "http://localhost:3000/coproducciones";
 export const getAllMovies = async () => {
   try {
     const response = await axios.get(API_URL);
-    return response.data;
+
+    console.log("API RAW DATA:", response.data);
+
+    // Aseguramos que siempre devolvemos un array
+    if (Array.isArray(response.data)) {
+      return response.data;
+    }
+
+    // Fallback defensivo (por si cambia el backend)
+    if (response.data.coproducciones) {
+      return response.data.coproducciones;
+    }
+
+    return [];
   } catch (error) {
     console.error("Error al obtener las películas:", error);
     return [];
   }
 };
+
 
 export const createMovie = async (paisNombre, movieData) => {
   try {
