@@ -28,12 +28,15 @@ function Home() {
 
 const argentina = movies.find(country => country.pais === "Argentina");
 const peliculasArgentina = argentina ? argentina.peliculas : [];
+const argentinaCategory = "Argentina";
 
 const mexico = movies.find(country => country.pais === "México");
 const peliculasMexico= mexico ? mexico.peliculas : [];
+const mexicoCategory = "Mexico";
 
 const chile = movies.find(country => country.pais === "chile");
 const peliculasChile= chile ? chile.peliculas : [];
+const chileCategory = "Chile";
 
 const francia = movies.find(country => country.pais === "Francia");
 const peliculasFrancia= francia ? francia.peliculas : [];
@@ -45,14 +48,12 @@ const italia = movies.find(country => country.pais === "italia");
 const peliculasItalia= italia ? italia.peliculas : [];
 
 
-
-
   return (
     <div className="bg-black text-white">
       <Header />
-      <ClassicJewels movies={peliculasArgentina}/>
-      <ClassicJewels movies={peliculasMexico}/>
-      <ClassicJewels movies={peliculasChile}/>
+      <ClassicJewels movies={peliculasArgentina} category={argentinaCategory}/>
+      <ClassicJewels movies={peliculasMexico} category={mexicoCategory}/>
+      <ClassicJewels movies={peliculasChile} category={chileCategory}/>
       <Footer />
     </div>
   );
