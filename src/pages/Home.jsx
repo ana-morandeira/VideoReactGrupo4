@@ -1,6 +1,5 @@
 import Header from "../components/Header/Header";
 import FeacturedFilms from "../components/Card/FeacturedFilms";
-import Header from "../components/Header/Header"
 import IberoAmericanMovies from "../components/IberoAmericanMovies/IberoAmericanMovies"
 import Footer from "../components/Footer/Footer"
 
