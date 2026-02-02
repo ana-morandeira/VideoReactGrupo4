@@ -1,4 +1,4 @@
-# 🎬 VideoReactGrupo4
+# 🎬 IBERIAN MOVIES
 
 Un proyecto frontend construido con React y Vite para una pequeña aplicación de vídeo/demo. Este README explica la estructura, cómo arrancar la API local (JSON server), el flujo de datos y quiénes son los responsables del proyecto.
 
