@@ -480,17 +480,6 @@
           "imagen": "src/assets/images/uk/palmerasEnLaNieve.jpg",
           "imageCartel": "src/assets/images/uk/palmerasEnLaNieveCartel.jpg",
           "trailer": "https://youtu.be/9gKX2j4YV2o?si=A7o2Y7Y7v0YJH2oG"
-        },
-        {
-          "id": 42,
-          "titulo": "Un monstruo viene a verme",
-          "director": "J.A. Bayona",
-          "año": 2016,
-          "genero": "Fantasía, Drama",
-          "argumento": "Un niño enfrenta la enfermedad de su madre con la ayuda de un monstruo imaginario.",
-          "imagen": "src/assets/images/uk/unMonstruoVieneAVerme.jpg",
-          "imageCartel": "src/assets/images/uk/unMonstruoVieneAVermeCartel.jpg",
-          "trailer": "https://youtu.be/0gKX3j5YV3o?si=B9o4Y9Y9v1YJH4oI"
         }
       ]
     }

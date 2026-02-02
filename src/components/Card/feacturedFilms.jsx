@@ -1,19 +1,49 @@
-import React from 'react';
-import Card from './FeaturedCard';
-//import FeaturedFilms from './FeaturedFilms';
+import React, { useRef } from "react";
+import Card from "./FeaturedCard";
 
+export default function FeaturedFilms({ movies = [] }) {
+  const carouselRef = useRef(null);
+  const intervalRef = useRef(null);
 
+  const scrollDirection = (direction) => {
+    const carousel = carouselRef.current;
 
-export default function FeacturedFilms({movies = []})  {
+    const firstCard = carousel.children[0];
+
+    const cardWidth = firstCard.offsetWidth + 24;
+
+    carousel.scrollBy({
+      left: direction === "left" ? -cardWidth : cardWidth,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="flex md:flex-col lg:flex-row gap-6 overflow-x-auto px-4 py-8 overflow-x-auto ">
+    <section className="relative lg:w-[50%] w-[70%] m-auto">
+      <button
+        className="absolute -left-10 top-1/2 transform -translate-y-1/2 z-20 text-yellow"
+        onClick={() => scrollDirection("left")}
+      >
+        ◀
+      </button>
 
-      {movies.map((movie) => (
-        <div key={movie.id} className='min-w-[180px] overflow-hidden'>
-        <Card  urlImg={movie.imagen} />
-        </div>
-      ))}
-    </div>
+      <button
+        className="absolute -right-10 top-1/2 transform -translate-y-1/2 z-20"
+        onClick={() => scrollDirection("right")}
+      >
+        ▶
+      </button>
+
+      <div
+        ref={carouselRef}
+        className="flex gap-6 scroll-smooth overflow-x-auto no-scrollbar"
+      >
+        {movies.map((movie) => (
+          <div key={movie.id} className="shrink-0 w-[25%]">
+            <Card urlImg={movie.imagen} />
+          </div>
+        ))}
+      </div>
+    </section>
   );
-};
-
+}
