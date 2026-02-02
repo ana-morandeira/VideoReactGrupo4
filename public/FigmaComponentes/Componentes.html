@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>React Components</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="./src/React-icon.svg" type="icon">
+    <style>
+        #mainroot {
+            display: flex;
+            flex-wrap: wrap;
+            height: 92vh;
+            place-content: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        main {
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            width: 400px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #image1 {
+            z-index: 4;
+        }
+
+        #image2 {
+            z-index: 3;
+        }
+
+        #image3 {
+            z-index: 2;
+        }
+
+        #image4 {
+            z-index: 1;
+        }
+
+        #image0 {
+            z-index: 5;
+        }
+
+        section {
+            text-align: end;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainroot">
+        <main>
+            <div><img id="image0" src=""></div>
+            <div><img id="image1" src="./src/plano4linea.png"></div>
+            <div><img id="image2" src="./src/plano3linea.png"></div>
+            <div><img id="image3" src="./src/plano2linea.png"></div>
+            <div><img id="image4" src="./src/plano1linea.png"></div>
+        </main>
+    </div>
+    <section><button id="color" onclick="coloredCards()">Card Component</button></section>
+
+    <script>
+        let main = document.getElementsByTagName("main")[0];
+        let number;
+        let colored = true;
+        document.addEventListener("mousemove", event => {
+            number = event.clientY / 7;
+            //console.log(number);
+            main.style.gap = `${number}px`;
+        })
+
+        function coloredCards() {
+            if (colored) {
+                document.getElementById("image0").src = "./src/plano5fondo.png";
+                document.getElementById("image1").src = "./src/plano4fondo.png";
+                document.getElementById("image2").src = "./src/plano3fondo.png";
+                document.getElementById("image3").src = "./src/plano2fondo.png";
+                document.getElementById("image4").src = "./src/plano1fondo.png";
+            }
+            else {
+                document.getElementById("image0").src = "";
+                document.getElementById("image1").src = "./src/plano4linea.png";
+                document.getElementById("image2").src = "./src/plano3linea.png";
+                document.getElementById("image3").src = "./src/plano2linea.png";
+                document.getElementById("image4").src = "./src/plano1linea.png";
+            }
+            colored = !colored;
+        }
+    </script>
+</body>
+
+</html>
