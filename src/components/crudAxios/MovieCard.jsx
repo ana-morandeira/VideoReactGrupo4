@@ -1,40 +1,39 @@
 import React from 'react';
+
 const images = import.meta.glob(
   '/src/assets/images/**/*.{jpg,jpeg,png,webp}',
   { eager: true }
 );
+
 const MovieCard = ({ movie = {}, pais, onDelete, onEdit }) => {
   if (!movie) return null;
-  // Función para manejar las rutas de imágenes
+  
   const getImageUrl = (imagePath) => {
     if (!imagePath) return '';
-
+    
     const key = `/${imagePath}`;
     return images[key]?.default || '';
   };
 
   return (
     <div className="bg-gray-900 border border-gray-700 text-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col">
-      {/* Imagen */}
       <img 
         src={getImageUrl(movie.imagen)} 
         alt={movie.titulo} 
         className="w-full h-40 object-cover"
-
-       onError={(e) => {
+        onError={(e) => {
           e.target.onerror = null;
-          e.target.src = '';
+          e.target.src = 'https://via.placeholder.com/400x225?text=No+Image';
         }}
       />
       
-      {/* Contenido */}
       <div className="p-4 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">
           <h2 className="font-bold text-xl text-white leading-tight">
             {movie.titulo || "Sin título"}
           </h2>
           <span className="bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">
-            {movie.año || movie.año || "S/A"}
+            {movie.año || "S/A"}
           </span>
         </div>
 
@@ -43,15 +42,13 @@ const MovieCard = ({ movie = {}, pais, onDelete, onEdit }) => {
         </p>
         
         <p className="text-gray-400 text-xs mb-4 uppercase tracking-wide">
-          {/* Usamos 'pais' que viene como prop desde el map de Peliculas.jsx */}
-          {pais} | {movie.genero}
+          {pais} | {movie.genero || "Género no definido"}
         </p>
 
         <p className="text-white text-sm line-clamp-3 mb-4 italic flex-grow">
           "{movie.argumento || "Sin argumento disponible."}"
         </p>
 
-        {/* Botonera */}
         <div className="space-y-2 mt-auto">
           <a 
             href={movie.trailer} 

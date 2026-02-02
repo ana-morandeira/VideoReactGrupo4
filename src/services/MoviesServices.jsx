@@ -8,12 +8,11 @@ export const getAllMovies = async () => {
 
     console.log("API RAW DATA:", response.data);
 
-    // Aseguramos que siempre devolvemos un array
     if (Array.isArray(response.data)) {
       return response.data;
     }
 
-    // Fallback defensivo (por si cambia el backend)
+
     if (response.data.coproducciones) {
       return response.data.coproducciones;
     }

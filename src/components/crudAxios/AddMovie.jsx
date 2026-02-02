@@ -11,7 +11,7 @@ const AddMovie = ({ MovieEdit, onFormSubmit }) => {
   const [imageCartel, setImageCartel] = useState("");
   const [pais, setPais] = useState("Argentina");
 
-  // Cargar datos si estamos editando
+  
   useEffect(() => {
     if (MovieEdit) {
       setTitulo(MovieEdit.titulo || "");

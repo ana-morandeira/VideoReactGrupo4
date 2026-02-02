@@ -48,17 +48,6 @@
           "trailer": "https://youtu.be/AoAU_eeSq4o?si=Q36V60jBsJZtlM2h"
         },
         {
-          "id": 5,
-          "titulo": "Metegol",
-          "director": "Juan José Campanella",
-          "año": 2013,
-          "genero": "Animación",
-          "argumento": "Un joven debe defender a su pueblo con ayuda de jugadores de futbolín que cobran vida.",
-          "imagen": "src/assets/images/argentina/metegol.jpg",
-          "imageCartel": "src/assets/images/argentina/metegolCartel.jpg",
-          "trailer": "https://youtu.be/A1rBLosVvGY?si=t1T2QeSAMcSCPerg"
-        },
-        {
           "id": 6,
           "titulo": "La odisea de los giles",
           "director": "Sebastián Borensztein",
