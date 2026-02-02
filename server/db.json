@@ -80,8 +80,8 @@
           "imageCartel": "src/assets/images/argentina/trumanCartel.jpg",
           "trailer": "https://youtu.be/czaA6yRbass?si=RAAOK_JZrtXcUoyZ"
         }
-
-      ]
+      ],
+      "id": "73fd"
     },
     {
       "pais": "México",
@@ -163,7 +163,8 @@
           "imageCartel": "src/assets/images/mexico/bardoCartel.jpg",
           "trailer": "https://youtu.be/mcN_edLQHY4?si=r9B5Ec4e3uoambYc"
         }
-      ]
+      ],
+      "id": "1178"
     },
     {
       "pais": "Francia",
@@ -245,9 +246,10 @@
           "imageCartel": "src/assets/images/francia/parisTexasCartel.jpg",
           "trailer": " https://youtu.be/HaoKIfDfDxc?si=LFdhHYN160L0Y-bf"
         }
-      ]
+      ],
+      "id": "ec13"
     },
-{
+    {
       "pais": "italia",
       "peliculas": [
         {
@@ -327,8 +329,8 @@
           "imageCartel": "src/assets/images/italia/vickyCristinaBarcelonaCartel.jpg",
           "trailer": "https://youtu.be/6gKX5j7YV5o?si=X1o6Y1Y1v3YJH6oK"
         }
-
-      ]
+      ],
+      "id": "079f"
     },
     {
       "pais": "chile",
@@ -410,7 +412,8 @@
           "imageCartel": "src/assets/images/chile/unaMujerFantásticaCartel.jpg",
           "trailer": "https://youtu.be/3gKX6j8YV6o?si=E2o7Y2Y2v4YJH7oL"
         }
-      ]
+      ],
+      "id": "10d1"
     },
     {
       "pais": "uk",
@@ -469,19 +472,9 @@
           "imagen": "src/assets/images/uk/laLibreria.jpg",
           "imageCartel": "src/assets/images/uk/laLibreriaCartel.jpg",
           "trailer": "https://youtu.be/8gKX1j3YV1o?si=Z6o1Y6Y6v9YJH1oF"
-        },
-        {
-          "id": 41,
-          "titulo": "Palmeras en la nieve",
-          "director": "Fernando González Molina",
-          "año": 2015,
-          "genero": "Romance, Drama",
-          "argumento": "Una pareja se enfrenta a los desafíos de la vida moderna.",
-          "imagen": "src/assets/images/uk/palmerasEnLaNieve.jpg",
-          "imageCartel": "src/assets/images/uk/palmerasEnLaNieveCartel.jpg",
-          "trailer": "https://youtu.be/9gKX2j4YV2o?si=A7o2Y7Y7v0YJH2oG"
         }
-      ]
+      ],
+      "id": "b367"
     }
   ]
 }
