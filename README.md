@@ -89,6 +89,44 @@ Puedes ver las versiones exactas en `package.json`.
 
 ---
 
+---
+
+## 🗓️ Dailies & Kick-off Meeting
+
+### 🔄 Dailies (Scrum)
+
+Las *dailies* son reuniones breves (máx. 15 minutos) donde cada miembro del equipo comparte el estado de su trabajo. Su objetivo es mantener la sincronización y detectar bloqueos rápidamente.
+
+Ejemplos típicos de nuestras intervenciones:
+
+- **Qué hice ayer:**  
+  "Implementé el componente `VideoCard` y conecté el fetch de vídeos."
+
+- **Qué haré hoy:**  
+  "Voy a integrar el formulario de subida de vídeos y validar campos."
+
+- **Bloqueos:**  
+  "El endpoint POST de json-server no está devolviendo el ID correctamente; necesito revisarlo con el equipo."
+
+---
+
+### 🚀 Kick-off Meeting
+
+La *Kick-off Meeting* marca el inicio del proyecto o del sprint. Sirve para alinear expectativas, definir objetivos y repartir responsabilidades.
+
+Elementos habituales del Kick-off:
+
+- Objetivo del proyecto o sprint  
+- Revisión del backlog inicial  
+- Aclaración de roles (PO, SM, Devs)  
+- Alineación técnica (stack, estructura, estándares)  
+- Identificación de riesgos iniciales  
+- Definición de la primera entrega o milestone  
+
+Ejemplo de mensaje de apertura:
+
+> "El objetivo de este sprint es tener la primera versión funcional del listado de vídeos, conectada a la API local y con navegación básica entre páginas."
+
 🛠 Flujo de trabajo recomendado (desarrollo)
 
 1. Clona el repo y instala dependencias:
