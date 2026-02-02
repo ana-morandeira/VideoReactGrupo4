@@ -108,6 +108,9 @@ Ejemplos típicos de nuestras intervenciones:
 - **Bloqueos:**  
   "El endpoint POST de json-server no está devolviendo el ID correctamente; necesito revisarlo con el equipo."
 
+- **Enlace:**
+  https://1drv.ms/t/c/e10641b190451823/IQC9Z2_3I6xqRaqwPJ2DzlvOAVeWzmOf_os_0BaetOnXTqg?e=cUhtTz
+
 ---
 
 ### 🚀 Kick-off Meeting
