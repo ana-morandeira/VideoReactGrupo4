@@ -114,7 +114,7 @@ Ejemplos típicos de nuestras intervenciones:
 
 La *Kick-off Meeting* marca el inicio del proyecto o del sprint. Sirve para alinear expectativas, definir objetivos y repartir responsabilidades.
 
-Elementos habituales del Kick-off:
+Elementos tratados en el Kick-off:
 
 - Objetivo del proyecto o sprint  
 - Revisión del backlog inicial  
