@@ -11,7 +11,7 @@ export default function IberoAmericanMovies({ category, movies = [] }) {
                     <h2 className="text-base tracking-wide">
                         <span className="font-semibold uppercase">{category}</span>
                         <span className="ml-2 font-normal text-neutral-500">
-                            Movies Collection
+                            Movies coproductions
                         </span>
                     </h2>
                 </div>
