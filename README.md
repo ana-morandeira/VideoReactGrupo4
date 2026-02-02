@@ -123,7 +123,7 @@ Elementos tratados en el Kick-off:
 - Identificación de riesgos iniciales  
 - Definición de la primera entrega o milestone  
 
-Ejemplo de mensaje de apertura:
+Mensaje de apertura:
 
 > "El objetivo de este sprint es tener la primera versión funcional del listado de vídeos, conectada a la API local y con navegación básica entre páginas."
 
