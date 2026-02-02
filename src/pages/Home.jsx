@@ -1,9 +1,48 @@
+import Header from "../components/Header/Header"
+import ContemporaryCinema from "../components/ContemporaryCinema/ContemporaryCinema"
+import IberoAmericanMovies from "../components/IberoAmericanMovies/IberoAmericanMovies"
+import Footer from "../components/Footer/Footer"
+
+import { getMovies } from "../services/api"
+import { useEffect, useState } from "react"
+
 function Home() {
+  
+  const [movies,setMovies] = useState([]);
+
+  useEffect(()=>{
+    async function loadMovies(){
+      try{
+        const movieData = await getMovies();
+        setMovies(movieData);
+      }
+      catch{
+
+      }
+    }
+    loadMovies();
+  },[])
+
+
+const argentina = movies.find(country => country.pais === "Argentina");
+const peliculasArgentina = argentina ? argentina.peliculas : [];
+const argentinaCategory = "Argentina";
+
+const mexico = movies.find(country => country.pais === "México");
+const peliculasMexico= mexico ? mexico.peliculas : [];
+const mexicoCategory = "Mexico";
+
+const chile = movies.find(country => country.pais === "chile");
+const peliculasChile= chile ? chile.peliculas : [];
+const chileCategory = "Chile";
+
   return (
-    <div className="p-8 text-center">
-      <h1 className="text-3xl font-bold">
-        Home (pendiente de merge)
-      </h1>
+    <div className="bg-black text-white">
+      <Header />
+      <IberoAmericanMovies movies={peliculasArgentina} category={argentinaCategory}/>
+      <IberoAmericanMovies movies={peliculasMexico} category={mexicoCategory}/>
+      <IberoAmericanMovies movies={peliculasChile} category={chileCategory}/>
+      <Footer />
     </div>
   );
 }
