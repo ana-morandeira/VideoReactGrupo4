@@ -1,8 +1,8 @@
 import Header from "../components/Header/Header";
 import FeacturedFilms from "../components/Card/FeacturedFilms";
-import ContemporaryCinema from "../components/ContemporaryCinema/ContemporaryCinema";
-import ClassicJewels from "../components/ClassicJewels/ClassicJewels";
-import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header"
+import IberoAmericanMovies from "../components/IberoAmericanMovies/IberoAmericanMovies"
+import Footer from "../components/Footer/Footer"
 
 import { getMovies } from "../services/api";
 import { useEffect, useState } from "react";
@@ -29,13 +29,29 @@ function Home() {
   const uk = movies.find((country) => country.pais === "uk");
   const peliculasUk = uk ? uk.peliculas : [];
 
+
+const argentina = movies.find(country => country.pais === "Argentina");
+const peliculasArgentina = argentina ? argentina.peliculas : [];
+const argentinaCategory = "Argentina";
+
+const mexico = movies.find(country => country.pais === "México");
+const peliculasMexico= mexico ? mexico.peliculas : [];
+const mexicoCategory = "Mexico";
+
+const chile = movies.find(country => country.pais === "chile");
+const peliculasChile= chile ? chile.peliculas : [];
+const chileCategory = "Chile";
+
   return (
     <div className="bg-black text-white">
-      <Header />
+      <Header/>
       <FeacturedFilms movies={peliculasUk} />
       <FeacturedFilms movies={peliculasFrancia} />
       <FeacturedFilms movies={peliculasItalia} />
-      <Footer />
+              <IberoAmericanMovies movies={peliculasArgentina} category={argentinaCategory}/>
+      <IberoAmericanMovies movies={peliculasMexico} category={mexicoCategory}/>
+      <IberoAmericanMovies movies={peliculasChile} category={chileCategory}/>
+      <Footer/>
     </div>
   );
 }
