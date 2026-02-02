@@ -38,11 +38,9 @@ const chileCategory = "Chile";
 
   return (
     <div className="bg-black text-white">
-      <Header />
       <IberoAmericanMovies movies={peliculasArgentina} category={argentinaCategory}/>
       <IberoAmericanMovies movies={peliculasMexico} category={mexicoCategory}/>
       <IberoAmericanMovies movies={peliculasChile} category={chileCategory}/>
-      <Footer />
     </div>
   );
 }
