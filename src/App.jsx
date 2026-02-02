@@ -8,10 +8,12 @@ import Peliculas from "./pages/Peliculas.jsx";
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <Header />
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/peliculas" element={<Peliculas />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

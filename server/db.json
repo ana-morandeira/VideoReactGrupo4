@@ -461,17 +461,6 @@
           "imagen": "src/assets/images/uk/klaus.jpg",
           "imageCartel": "src/assets/images/uk/klausCartel.jpg",
           "trailer": "https://youtu.be/7gKX0j2YV0o?si=Y5o0Y5Y5v7YJH0oE"
-        },
-        {
-          "id": 40,
-          "titulo": "La librería",
-          "director": "Isabel Coixet",
-          "año": 2017,
-          "genero": "Drama",
-          "argumento": "Una mujer abre una librería en un pequeño pueblo costero enfrentando la oposición local.",
-          "imagen": "src/assets/images/uk/laLibreria.jpg",
-          "imageCartel": "src/assets/images/uk/laLibreriaCartel.jpg",
-          "trailer": "https://youtu.be/8gKX1j3YV1o?si=Z6o1Y6Y6v9YJH1oF"
         }
       ],
       "id": "b367"
