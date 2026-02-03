@@ -1,1 +1,6 @@
 @import "tailwindcss";
+@custom-variant hover (&:hover);
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
