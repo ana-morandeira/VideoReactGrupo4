@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import Card from "./FeaturedCard";
 
-export default function FeaturedFilms({ movies = [] }) {
+export default function FeaturedFilms({ movies = [], title, countryName}) {
   const carouselRef = useRef(null);
-  const intervalRef = useRef(null);
 
   const scrollDirection = (direction) => {
     const carousel = carouselRef.current;
@@ -19,19 +18,20 @@ export default function FeaturedFilms({ movies = [] }) {
   };
 
   return (
-    <section className="relative lg:w-[50%] w-[70%] m-auto">
+    <section className="relative w-[90%] m-auto mb-8">
+      <h2 className="text-3xl mb-8">{title}</h2>
       <button
-        className="absolute -left-10 top-1/2 transform -translate-y-1/2 z-20 text-yellow"
+        className="absolute -left-10 top-1/2 transform -translate-y-1/2 z-20 text-yellow hidden lg:flex text-3xl"
         onClick={() => scrollDirection("left")}
       >
-        ◀
+       ⬅️ 
       </button>
 
       <button
-        className="absolute -right-10 top-1/2 transform -translate-y-1/2 z-20"
+        className="absolute -right-10 top-1/2 transform -translate-y-1/2 z-20 hidden lg:flex text-3xl"
         onClick={() => scrollDirection("right")}
       >
-        ▶
+        ➡️
       </button>
 
       <div
@@ -40,7 +40,7 @@ export default function FeaturedFilms({ movies = [] }) {
       >
         {movies.map((movie) => (
           <div key={movie.id} className="shrink-0 w-[25%]">
-            <Card urlImg={movie.imagen} />
+            <Card urlImg={movie.imagen} alt="Carrousel" countryName={countryName} />
           </div>
         ))}
       </div>

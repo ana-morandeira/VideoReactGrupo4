@@ -1,10 +1,10 @@
 import CountryFeaturedCard from './countryFeaturedCard';
 
-function Card({ title, urlImg, alt = '' }) {
+function Card({ title, urlImg, alt = '',countryName }) {
   return (
-    <article className=''>
-      <div className="relative">
-        <CountryFeaturedCard countryName="Spain" />
+    <article className='h-full'>
+      <div className="relative h-full">
+        <CountryFeaturedCard countryName={countryName}/>
 
         <img
           src={urlImg}

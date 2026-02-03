@@ -1,4 +1,5 @@
 import BtnPrimary from "./btnPrimary";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -15,19 +16,15 @@ function Banner() {
           después, ambos recuerdos le siguen persiguiendo.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-2/3 mt-6">
-          <BtnPrimary
-            textBtn="Ver ahora"
-            colorBtn="text-black"
-            bgBtn="bg-yellow-600"
-            layoutBtn="flex-1 text-center px-4 py-3 lg:py-4 lg:text-4xl cursor-pointer"
-          />
-          <BtnPrimary
-            textBtn="Más info"
-            colorBtn="text-white backdrop-blur"
-            bgBtn="bg-gray-300/30"
-            layoutBtn="flex-1 text-center px-4 py-3 lg:py-4 lg:text-4xl cursor-pointer"
-          />
+        <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-1/3 mt-6">
+          <Link to="https://www.youtube.com/watch?v=hKa8U-8vsfU">
+            <BtnPrimary
+              textBtn="Ver ahora"
+              colorBtn="text-black"
+              bgBtn="bg-yellow-600"
+              layoutBtn="flex-1 text-center px-4 py-3 lg:py-4 lg:text-4xl cursor-pointer"
+            />
+          </Link>
         </div>
       </div>
     </section>
