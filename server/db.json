@@ -4,17 +4,6 @@
       "pais": "Argentina",
       "peliculas": [
         {
-          "id": 1,
-          "titulo": "Relatos salvajes",
-          "director": "Damián Szifron",
-          "año": 2014,
-          "genero": "Comedia negra",
-          "argumento": "Seis historias de violencia y venganza.",
-          "imagen": "src/assets/images/argentina/relatosSalvajes.jpg",
-          "imageCartel": "src/assets/images/argentina/relatosSalvajesCartel.jpg",
-          "trailer": "https://youtu.be/CzJM3jYKjAg?si=i0VsmD_OoZYFgdFe"
-        },
-        {
           "id": 2,
           "titulo": "El secreto de sus ojos",
           "director": "Juan José Campanella",
