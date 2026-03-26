@@ -1,7 +1,6 @@
 import FeacturedFilms from "../components/Card/FeacturedFilms";
 import IberoAmericanMovies from "../components/IberoAmericanMovies/IberoAmericanMovies";
-
-import { getMovies } from "../services/api";
+import { getAllMovies } from "../services/MoviesServices";
 import { useEffect, useState } from "react";
 
 function Home() {
@@ -10,57 +9,28 @@ function Home() {
   useEffect(() => {
     async function loadMovies() {
       try {
-        const movieData = await getMovies();
+        const movieData = await getAllMovies();
         setMovies(movieData);
       } catch {}
     }
     loadMovies();
   }, []);
 
-  const italia = movies.find((country) => country.pais === "italia");
-  const peliculasItalia = italia ? italia.peliculas : [];
-
-  const francia = movies.find((country) => country.pais === "Francia");
-  const peliculasFrancia = francia ? francia.peliculas : [];
-
-  const uk = movies.find((country) => country.pais === "uk");
-  const peliculasUk = uk ? uk.peliculas : [];
-
-  const argentina = movies.find((country) => country.pais === "Argentina");
-  const peliculasArgentina = argentina ? argentina.peliculas : [];
-  const argentinaCategory = "Argentina";
-
-  const mexico = movies.find((country) => country.pais === "México");
-  const peliculasMexico = mexico ? mexico.peliculas : [];
-  const mexicoCategory = "Mexico";
-
-  const chile = movies.find((country) => country.pais === "chile");
-  const peliculasChile = chile ? chile.peliculas : [];
-  const chileCategory = "Chile";
+  const peliculasArgentina = movies.filter((m) => m.genero === "Argentina");
+  const peliculasMexico = movies.filter((m) => m.genero === "México");
+  const peliculasChile = movies.filter((m) => m.genero === "Chile");
+  const peliculasUk = movies.filter((m) => m.genero === "UK");
+  const peliculasFrancia = movies.filter((m) => m.genero === "Francia");
+  const peliculasItalia = movies.filter((m) => m.genero === "Italia");
 
   return (
     <div className="bg-black text-white">
-      <FeacturedFilms
-        movies={peliculasUk}
-        title="Películas Reino Unido"
-        countryName="UK"
-      />
-      <FeacturedFilms
-        movies={peliculasFrancia}
-        title="Películas Francia"
-        countryName="Francia"
-      />
-      <FeacturedFilms
-        movies={peliculasItalia}
-        title="Peliculas Italia"
-        countryName="Italia"
-      />
-      <IberoAmericanMovies
-        movies={peliculasArgentina}
-        category={argentinaCategory}
-      />
-      <IberoAmericanMovies movies={peliculasMexico} category={mexicoCategory} />
-      <IberoAmericanMovies movies={peliculasChile} category={chileCategory} />
+      <FeacturedFilms movies={peliculasUk} title="Películas Reino Unido" countryName="UK" />
+      <FeacturedFilms movies={peliculasFrancia} title="Películas Francia" countryName="Francia" />
+      <FeacturedFilms movies={peliculasItalia} title="Peliculas Italia" countryName="Italia" />
+      <IberoAmericanMovies movies={peliculasArgentina} category="Argentina" />
+      <IberoAmericanMovies movies={peliculasMexico} category="Mexico" />
+      <IberoAmericanMovies movies={peliculasChile} category="Chile" />
     </div>
   );
 }
